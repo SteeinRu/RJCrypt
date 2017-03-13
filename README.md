@@ -61,7 +61,6 @@ Settings.HashIterations = 25000;
 // To reset all the settings to their default values
 Settings.Reset();
 ```
-***
 
 ### Support or Contact
 
