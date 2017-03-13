@@ -61,4 +61,10 @@ Settings.HashIterations = 25000;
 // To reset all the settings to their default values
 Settings.Reset();
 ```
+***
 
+### Support or Contact
+
+* Author: Shamsudin Serderov
+* Version Library: 1.0.0
+* Email: sourcecode@steein.ru
