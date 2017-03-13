@@ -46,9 +46,19 @@ rj.Encrypt(plaintextFile, ciphertextFile, password, RJCrypt.Common.KeySize.Aes25
 // Decrypt the file
 rj.Decrypt(ciphertextFile, plaintextFile, password, RJCrypt.Common.KeySize.Aes256);
 ```
-
----
-
-* * *
-
 - - - - 
+
+## Settings
+
+The Settings class is a set of default values that are changed in the library. Changing these settings by default is not required, but is available for developers who want more precise control of the Rijndael256 encryption system.
+
+```c#
+// The HashIterations setting is used in several places throughout the lib,
+// with Rijndael.Encrypt being just one of them. After making this change,
+// any future calls to Rijndael.Encrypt will make use of this new value
+Settings.HashIterations = 25000;
+
+// To reset all the settings to their default values
+Settings.Reset();
+```
+
