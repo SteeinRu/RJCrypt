@@ -47,3 +47,8 @@ rj.Encrypt(plaintextFile, ciphertextFile, password, RJCrypt.Common.KeySize.Aes25
 rj.Decrypt(ciphertextFile, plaintextFile, password, RJCrypt.Common.KeySize.Aes256);
 ```
 
+---
+
+* * *
+
+- - - - 
